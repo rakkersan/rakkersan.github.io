@@ -1,0 +1,36 @@
+  body {
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(135deg, #a8e6ff, #d0f4f7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  h1 {
+    color: #0077aa;
+    margin-bottom: 30px;
+  }
+  .link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 15px 30px;
+    background: linear-gradient(90deg, #4dd0e1, #26c6da);
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 25px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 220px;
+  }
+  .link-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+  }
+  .icon {
+    margin-right: 10px;
+  }
